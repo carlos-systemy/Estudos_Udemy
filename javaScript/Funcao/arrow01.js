@@ -4,7 +4,7 @@ function Pessoa() {
     setInterval(() => {
         this.idade++
         console.log(this.idade)
-    }, 10)
+    }, 100000000000)
 }
 
 new Pessoa

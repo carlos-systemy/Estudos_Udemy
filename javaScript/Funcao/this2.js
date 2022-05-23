@@ -5,7 +5,7 @@ function Pessoa() {
     setInterval(function() {
         self.idade++
         console.log(self.idade)
-    }/*.bind(this)*/, 1000)    // Passando o bind ele garante que o this é a idade pessoa
+    }/*.bind(this)*/, 50)    // Passando o bind ele garante que o this é a idade pessoa
 }
 
 new Pessoa

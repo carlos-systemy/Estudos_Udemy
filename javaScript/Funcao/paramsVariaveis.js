@@ -3,11 +3,11 @@ function soma() { // Dessa forma vc pode inserir parametros variaveis, qts quise
     for (i in arguments) {  // O arguments é um arrray interno de uma função
         soma += arguments[i]
     }
-    return soma
+    return soma;
 }
 
-console.log(soma())
-console.log(soma(1))
-console.log(soma(1.1, 2.2, 3.3))
-console.log(soma(1.1, 2.2, "Teste"))
-console.log(soma('a', 'b', 'c'))
+console.log(soma());
+console.log(soma(1));
+console.log(soma(1.1, 2.2, 3.3));
+console.log(soma(1.1, 2.2, "Teste"));
+console.log(soma('a', 'b', 'c'));

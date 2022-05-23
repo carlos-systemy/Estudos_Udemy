@@ -9,7 +9,7 @@ const fun2 = function () {}
 
 // Armazenar em um array
 const array = [function (a, b){return a + b}, fun1, fun2]
-console.log(array[0](2,3))
+console.log(array[0](2,3));
 
 // Armazenar em um atributo de objeto
 const obj = {}
@@ -25,10 +25,10 @@ run(function () {console.log('Executando...')})
 // Uma função pode retornar uma função
 function soma(a, b) {
     return function (c) {
-        console.log(a + b + c)
+        console.log(a + b + c);
     }
 }
 
-soma(2,3)(4)
-const CincoMais = soma(2, 3) // Esta forma é a mesma do que a linha de cima
-CincoMais(4)
+soma(2,3)(4);
+const CincoMais = soma(2, 3); // Esta forma é a mesma do que a linha de cima
+CincoMais(4);

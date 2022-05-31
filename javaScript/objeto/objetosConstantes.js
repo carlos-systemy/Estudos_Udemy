@@ -3,7 +3,7 @@ const pessoa = {nome: 'João'}
 
 // Aqui não alterei a referência da constante, alterei apenas o dado do obj
 pessoa.nome = 'Pedro'
-console.log(pessoa)
+console.log(pessoa);
 
 // pessoa -> 456 -> {...}
 // a pessoa vai tentar apontar pra um novo objeto que está em um outro enedereço de memória
@@ -12,7 +12,7 @@ console.log(pessoa)
 // Esse método congela o objeto, você não consegue mexer nele. Assim o objeto passa a ser constante
 Object.freeze(pessoa)
 pessoa.nome = 'Maria'
-console.log(pessoa.nome)
+console.log(pessoa.nome);
 
 const pessoaConstante = Object.freeze({nome: 'João'})
-console.log(pessoaConstante)
+console.log(pessoaConstante);
